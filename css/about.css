@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-image: url(fondgris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgb(62, 58, 58);
+    padding: 10px;
+    color: white;
+    overflow: auto;
+}
+nav,h2,ul,ul>li{
+    display: inline-block;
+    margin: 0;
+}
+span{
+    float: right;
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-size: 1.5em;
+    padding: 8px;
+    border-left: red 2px transparent;
+    border-bottom: red 2px transparent;
+}
+main{
+    margin: 30px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(62, 58, 58) ;
+    padding: 10px 0px;
+}
+
+a:hover{
+    background-color: rgb(145, 137, 137);
+    border-radius: 0px 5px 0px 5px;
+    border-left: red 2px solid;
+    border-bottom: red 2px solid;
+    
+}
+
+
+

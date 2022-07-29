@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Uchen;
+    src: url(/Uchen/Uchen-Regular.ttf);
+ } 
+body{
+    margin: 0;
+    font-family: uchen;
+}
+header{
+    background-image: url("fondgris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3,ul,li,nav{
+    display: inline-block;
+}
+h3{
+   color: white;
+   text-transform: uppercase;
+   margin-left: 10px;
+   letter-spacing: 5px;
+   font-size: 20px;
+}
+ul>li{
+    
+    margin: 00px;
+    padding: 10px;
+}
+ul{
+    margin-left: 600px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    font-size: large;
+    
+}
+a:hover{
+   border-top: 2px solid red;
+   border-radius: 0px 0px 10px 10px  ;
+   background: white;
+   color: red;
+}
+.float-left{
+    float: right;
+}
+
+.not-float{
+clear:right;
+}
+/* clear:both */
+/* overflow:auto */
